@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>de.disk0</groupId>
-		<artifactId>test</artifactId>
+		<artifactId>test-sleuth</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>test-app-b</artifactId>
