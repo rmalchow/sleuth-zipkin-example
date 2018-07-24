@@ -1,0 +1,9 @@
+server.port: 8080
+spring:
+  application:
+    name: B
+spring.rabbitmq.addresses: ${RABBITMQ_HOSTS:127.0.0.1}
+spring.rabbitmq.port: ${RABBITMQ_PORT:5673}
+spring.rabbitmq.username: ${RABBITMQ_USER:admin}
+spring.rabbitmq.password: ${RABBITMQ_PASSWORD:admin}
+    

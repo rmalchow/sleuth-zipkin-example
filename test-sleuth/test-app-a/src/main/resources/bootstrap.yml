@@ -1,0 +1,10 @@
+server.port: 8081
+spring:
+  application:
+    name: A
+spring.rabbitmq.addresses: ${RABBITMQ_HOSTS:127.0.0.1}
+spring.rabbitmq.port: ${RABBITMQ_PORT:5673}
+spring.rabbitmq.username: ${RABBITMQ_USER:admin}
+spring.rabbitmq.password: ${RABBITMQ_PASSWORD:admin}
+eureka.client.serviceUrl.defaultZone: http://${EUREKA_HOST:127.0.0.1}:${EUREKA_PORT:8761}/eureka/
+eureka.client.instance.preferIpAddress: true
