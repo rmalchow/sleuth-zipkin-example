@@ -49,7 +49,7 @@ Note that it is necessary that the appropriate components are visible in the app
 	}
 ```
 
-will not work, since the RestTemplate is not visible to the sleuth instrumentation. this, however:\
+will not work, since the RestTemplate is not visible to the sleuth instrumentation. this, however:
 
 ### YES (✓):
 
@@ -95,7 +95,7 @@ ParentId: BBBBBB
 
 … and so on. With the SpanId and the ParentId, the actual sequence can be reassembled from these reports, even if they arrive in Zipkin in random order. It enables us to see the recorded traces in Zipkin through all components.
 
-> Attention: The default config of zipkin only captures 10% of all requests. So you will see only 10% of your requests fully traced in Zipkin.
+> Attention: The default config of zipkin only captures 10% of all requests. So you will see only 10% of your requests fully traced in Zipkin. You can change this in the configuration.
 
 
 
