@@ -8,13 +8,19 @@
 	</parent>
 	<artifactId>test-app-b</artifactId>
 	<dependencies>
+		<!-- 
+		for sleuth only, add this:
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
 		</dependency>
+		 -->
+		<!-- 
+		for sleuth and zipkin only, add this:
+		-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
